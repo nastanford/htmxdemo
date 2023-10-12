@@ -1,14 +1,14 @@
 <div class="container mt-3">
   <div class="row">
     <div class="col-12 h4">
-      Search Contacts
+      Search People
       <span class="htmx-indicator">
         Searching...
       </span>
       <input class="form-control"
         type="search"
         name="search"
-        placeholder="Begin Typing To Search Users..."
+        placeholder="Begin Typing To Search People..."
         hx-post="/search"
         hx-trigger="keyup changed delay:500ms, search"
         hx-target="#search-results"
